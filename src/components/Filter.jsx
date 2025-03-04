@@ -6,7 +6,7 @@ const Filter = ({ onFilter }) => {
   const { theme } = useContext(themeContext);
 
   return (
-    <aside>
+    <section>
       <label for='category'>Filter by region:</label>
       <select id="category" name="category" onChange={(e) => onFilter(e.target.value)}>
         <option value="" className={`${theme}`}>
@@ -18,7 +18,7 @@ const Filter = ({ onFilter }) => {
           </option>
         ))}
       </select>
-    </aside>
+    </section>
   );
 };
 
