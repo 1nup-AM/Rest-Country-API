@@ -37,10 +37,10 @@ function Homepage({ countries }) {
         <h1 className="text-xl lg:text-2xl font-semibold">Where in the world?!</h1>
         <ThemeToggle />
       </header>
-      <div className="lg:flex justify-between px-12 my-16">
+      <nav className="lg:flex justify-between px-12 my-16">
       <SearchBar onSearch={handleSearch} />
       <Filter onFilter={handleFilter} />
-      </div>
+      </nav>
       <main className="flex justify-center items-center flex-wrap gap-16">
         {filteredCountries.map((country) => (
           <CountryCard key={country.cca3} country={country} />
