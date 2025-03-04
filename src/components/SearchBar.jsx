@@ -10,15 +10,17 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <search className="flex justify-center items-center gap-5 mb-4">
+    <div className="flex justify-center items-center gap-5 mb-4">
       <IoSearchOutline />
+      <search>
       <input
         type="text"
         placeholder="Search for a country..."
         value={term}
         onChange={handleChange}
       />
-    </search>
+      </search>
+    </div>
   );
 };
 

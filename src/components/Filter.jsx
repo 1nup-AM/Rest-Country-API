@@ -7,7 +7,8 @@ const Filter = ({ onFilter }) => {
 
   return (
     <aside>
-      <select onChange={(e) => onFilter(e.target.value)}>
+      <label for='category'></label>
+      <select id="category" name="category" onChange={(e) => onFilter(e.target.value)}>
         <option value="" className={`${theme}`}>
           Filter by region
         </option>
