@@ -30,8 +30,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/1nup-AM/Rest-Country-API)
+- Live Site URL: [Vercel](https://rest-country-api-jade.vercel.app/)
 
 ## My process
 
@@ -52,4 +52,4 @@ Through this project, i learned how to fetch data from an API and also learned a
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@1nup-AM](https://www.frontendmentor.io/profile/1nup-AM)
