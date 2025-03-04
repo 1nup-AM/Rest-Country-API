@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div className="flex justify-center items-center gap-5 mb-4">
+    <search className="flex justify-center items-center gap-5 mb-4">
       <IoSearchOutline />
       <input
         type="text"
@@ -18,7 +18,7 @@ const SearchBar = ({ onSearch }) => {
         value={term}
         onChange={handleChange}
       />
-    </div>
+    </search>
   );
 };
 
