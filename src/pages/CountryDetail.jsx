@@ -29,7 +29,7 @@ const CountryDetail = ({ countries }) => {
         <div className="flex items-start m-4 lg:mb-10 w-full lg:w-[80vw]">
         <button onClick={() => navigate(-1)} className="flex justify-center items-center gap-1 border border-gray-300 rounded-xl px-6 py-1"><p className="text-2xl">&larr;</p> Back</button>
         </div>
-        <div className="lg:flex justify-center items-center gap-24 ">
+        <main className="lg:flex justify-center items-center gap-24 ">
           <div>
             <img
               src={country.flags.svg}
@@ -85,7 +85,7 @@ const CountryDetail = ({ countries }) => {
               </ul>
             </div>
           </div>
-        </div>
+        </main>
       </div>
     </div>
   );

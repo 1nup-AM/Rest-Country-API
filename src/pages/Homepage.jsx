@@ -33,19 +33,19 @@ function Homepage({ countries }) {
 
   return (
     <div className={`${theme} px-6 lg:px-12 min-h-[100vh]`}>
-      <div className="flex gap-6 lg:justify-between items-center lg:px-10 py-4">
+      <header className="flex gap-6 lg:justify-between items-center lg:px-10 py-4">
         <h1 className="text-xl lg:text-2xl font-semibold">Where in the world?!</h1>
         <ThemeToggle />
-      </div>
+      </header>
       <div className="lg:flex justify-between px-12 my-16">
       <SearchBar onSearch={handleSearch} />
       <Filter onFilter={handleFilter} />
       </div>
-      <div className="flex justify-center items-center flex-wrap gap-16">
+      <main className="flex justify-center items-center flex-wrap gap-16">
         {filteredCountries.map((country) => (
           <CountryCard key={country.cca3} country={country} />
         ))}
-      </div>
+      </main>
     </div>
   );
 }
