@@ -1,0 +1,15 @@
+/*Dark mode styles*/
+.Dark{
+    background-color:  hsl(207, 26%, 17%) ;
+    color: hsl(0, 0%, 100%);
+    transition: background 0.3s, color 0.3s;
+}
+.Light{
+    background-color:hsl(0, 0%, 95%) ;
+    color:  hsl(200, 15%, 8%);
+    transition: background 0.3s, color 0.3s;
+}
+
+input{
+    all: unset;
+}
